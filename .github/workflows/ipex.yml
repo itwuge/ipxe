@@ -3,11 +3,11 @@ name: Build-IPEX
 # on字段指定触发 workflow 的条件，通常是某些事件。
 on:
   # 可以在发生 push 事件时运行工作流。
-  push:
-    branches:
-      - main
-    tags:
-      - 'v*'
+  #push:
+    #branches:
+      #- main
+    #tags:
+      #- 'v*'
     repository_dispatch:
     workflow_dispatch:
       inputs:
