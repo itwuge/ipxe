@@ -5,7 +5,7 @@ on:
   # 可以在发生 push 事件时运行工作流。
   push:
     branches:
-      - master
+      - main
     tags:
       - 'v*'
     repository_dispatch:
